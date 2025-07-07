@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Masa Penjajahan Jepang di Indonesia (1942-1945)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Penjajahan Jepang Di Indonesia</h1>
+        <p>Sebuah Tinjauan Interaktif (1942-1945)</p>
+    </header>
+
+    <nav>
+        <a href="#timeline">Linimasa</a>
+        <a href="#tokoh">Tokoh Penting</a>
+        <a href="#dampak">Dampak</a>
+        <a href="#kuis">Kuis Singkat</a>
+    </nav>
+
+    <main>
+        <section id="timeline">
+            <h2>Lini Masa Interaktif</h2>
+            <div class="timeline-container">
+                <div class="timeline-item" data-info="Jepang mendarat di Tarakan, memulai invasi ke Hindia Belanda.">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">Januari 1942</div>
+                    <div class="timeline-content">
+                        <h3>Awal Kedatangan Jepang</h3>
+                    </div>
+                </div>
+                <div class="timeline-item" data-info="Belanda menyerah tanpa syarat kepada Jepang di Kalijati, Subang. Ini menandai dimulainya masa pendudukan Jepang.">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">Maret 1942</div>
+                    <div class="timeline-content">
+                        <h3>Belanda Menyerah</h3>
+                    </div>
+                </div>
+                 <div class="timeline-item" data-info="Jepang membentuk BPUPKI (Badan Penyelidik Usaha-usaha Persiapan Kemerdekaan Indonesia) untuk mempersiapkan kemerdekaan.">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">Maret 1945</div>
+                    <div class="timeline-content">
+                        <h3>Pembentukan BPUPKI</h3>
+                    </div>
+                </div>
+                <div class="timeline-item" data-info="Jepang menyerah kepada Sekutu setelah bom atom di Hiroshima dan Nagasaki. Indonesia mengalami kekosongan kekuasaan.">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">Agustus 1945</div>
+                    <div class="timeline-content">
+                        <h3>Jepang Menyerah</h3>
+                    </div>
+                </div>
+            </div>
+            <div id="timeline-info-box">
+                <p>Klik pada sebuah peristiwa untuk melihat detailnya.</p>
+            </div>
+        </section>
+
+        <hr>
+
+        <section id="tokoh">
+            <h2>Tokoh Penting</h2>
+            <div class="tokoh-container">
+                <div class="tokoh-card">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Presiden_Sukarno.jpg/800px-Presiden_Sukarno.jpg" alt="Soekarno">
+                    <h3>Soekarno</h3>
+                    <p>Memanfaatkan kerjasama dengan Jepang untuk mempersiapkan pondasi kemerdekaan Indonesia.</p>
+                </div>
+                <div class="tokoh-card">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Mohammad_Hatta_1950.jpg/800px-Mohammad_Hatta_1950.jpg" alt="Mohammad Hatta">
+                    <h3>Mohammad Hatta</h3>
+                    <p>Bersama Soekarno, menjadi tokoh sentral dalam pergerakan kemerdekaan selama masa pendudukan.</p>
+                </div>
+                 <div class="tokoh-card">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/e/e0/Sutan_Sjahrir_1946.jpg" alt="Sutan Sjahrir">
+                    <h3>Sutan Sjahrir</h3>
+                    <p>Memimpin gerakan bawah tanah melawan Jepang sambil mempersiapkan kekuatan untuk revolusi.</p>
+                </div>
+            </div>
+        </section>
+
+        <hr>
+
+        <section id="dampak">
+            <h2>Dampak Pendudukan</h2>
+             <div class="dampak-container">
+                <div class="dampak-item positif">
+                    <h3>Dampak Positif</h3>
+                    <ul>
+                        <li>Diperkenalkannya sistem pelatihan militer (PETA, Heiho).</li>
+                        <li>Penggunaan bahasa Indonesia diizinkan secara luas.</li>
+                        <li>Munculnya tokoh-tokoh politik yang dipersiapkan untuk kemerdekaan.</li>
+                    </ul>
+                </div>
+                <div class="dampak-item negatif">
+                    <h3>Dampak Negatif</h3>
+                    <ul>
+                        <li>Pengerahan tenaga kerja paksa (Romusha) yang menyebabkan banyak korban.</li>
+                        <li>Perampasan hasil pertanian yang menyebabkan kelaparan.</li>
+                        <li>Penindasan kebebasan pers dan politik.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <hr>
+
+        <section id="kuis">
+            <h2>Kuis Singkat</h2>
+            <div class="kuis-container">
+                <p>Apa nama badan yang dibentuk Jepang untuk mempersiapkan kemerdekaan Indonesia?</p>
+                <div class="options">
+                    <button class="option">PETA</button>
+                    <button class="option">BPUPKI</button>
+                    <button class="option">Heiho</button>
+                    <button class="option">Romusha</button>
+                </div>
+                <p id="kuis-result"></p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Web Sejarah Interaktif</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
